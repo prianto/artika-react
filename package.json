@@ -1,0 +1,55 @@
+{
+  "title": "Artika React",
+  "name": "artika-react",
+  "version": "1.0.0",
+  "description": "Clean and responsive template built with React and Bootstrap.",
+  "keywords": [
+    "clean",
+    "responsive",
+    "theme",
+    "template",
+    "html",
+    "sass",
+    "react",
+    "bootstrap"
+  ],
+  "homepage": "https://artika-react.herokuapp.com/",
+  "bugs": {
+    "url": "https://github.com/prianto/artika-react/issues",
+    "email": "andi@prianto.net"
+  },
+  "author": "Andi Prianto",
+  "contributors": [
+    "Andi Prianto (http://www.prianto.net/)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prianto/artika-react.git"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "dompurify": "^1.0.2",
+    "font-awesome": "4.7.0",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.13.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-helmet": "^5.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "siema": "^1.4.6",
+    "slideout": "^1.0.1"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
+}
