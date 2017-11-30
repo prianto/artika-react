@@ -1,7 +1,5 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var rename = require("gulp-rename");
-var del = require('del');
 
 gulp.task('sass', function() {
   // return gulp.src('./src/**/[^_]*.scss')
