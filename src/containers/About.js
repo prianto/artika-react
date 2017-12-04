@@ -57,7 +57,7 @@ class Page extends Component
           <meta property="og:image" content={preview_jpg} />
           <meta property="og:url" content="https://artika-react.herokuapp.com/about" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:image:alt" content="Artika HTML" />
+          <meta name="twitter:image:alt" content="Artika React" />
           <title>About Us - Artika React: Single-page Application (SPA) Template</title>
         </Helmet>
         <Menu />
