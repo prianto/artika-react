@@ -41,7 +41,7 @@ class Main extends Component
                 <NavLink to="category">{this.state.preparedArticle.category}</NavLink>,&nbsp;
                 <NavLink to="post">{this.state.preparedArticle.published}</NavLink>
               </small>
-              <p class="subtitle">Pellentesque suscipit leo vitae venenatis congue. Pellentesque feugiat augue nisl, vitae aliquet ex accumsan quis. Duis quam sapien, volutpat quis dui at?</p>
+              <p class="subtitle">{this.state.preparedArticle.excerpt}</p>
               <div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(this.state.preparedArticle.content) }} />
             </div>
           </div>
