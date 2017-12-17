@@ -34,16 +34,16 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
-    "dompurify": "^1.0.2",
+    "dompurify": "^1.0.3",
     "font-awesome": "4.7.0",
     "jquery": "^3.2.1",
     "popper.js": "^1.13.0",
-    "react": "^16.1.1",
-    "react-dom": "^16.1.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "react-helmet": "^5.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",
-    "siema": "^1.4.6",
+    "siema": "^1.4.9",
     "slideout": "^1.0.1"
   },
   "devDependencies": {
