@@ -43,11 +43,11 @@ class Menu extends Component
   render() {
     return (
       <nav id="menu">
-        <ul class="navbar-nav ml-auto">
+        <ul className="navbar-nav ml-auto">
           {this.state.preparedMenu}
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/prianto/artika-react" target="_blank" rel="noopener noreferrer">
-              <i class="fa fa-cloud-download" aria-hidden="true"></i>&nbsp; Download
+          <li className="nav-item">
+            <a className="nav-link" href="https://github.com/prianto/artika-react" target="_blank" rel="noopener noreferrer">
+              <i className="fa fa-cloud-download" aria-hidden="true"></i>&nbsp; Download
             </a>
           </li>
         </ul>

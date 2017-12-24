@@ -45,15 +45,15 @@ class Main extends Component
   render() {
     return (
       <div>
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
               <Slider />
             </div>
           </div>
         </div>
-        <div class="container">
-          <div class="row">
+        <div className="container">
+          <div className="row">
             {this.state.preparedArticles}
           </div>
         </div>

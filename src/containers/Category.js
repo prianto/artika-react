@@ -44,9 +44,9 @@ class Main extends Component
 
   render() {
     return (
-      <div class="container">
-        <h1 class="mb-4">Category: <small>Nature &amp; Culture</small></h1>
-        <div class="row">
+      <div className="container">
+        <h1 className="mb-4">Category: <small>Nature &amp; Culture</small></h1>
+        <div className="row">
           {this.state.preparedArticles}
         </div>
         <Pagination dataHref="category" />

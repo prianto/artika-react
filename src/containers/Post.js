@@ -32,16 +32,16 @@ class Main extends Component
   render() {
     return (
       <article>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 col-md-10 mx-auto">
               <h1>{this.state.preparedArticle.title}</h1>
-              <small class="post-meta">
+              <small className="post-meta">
                 <NavLink to="post">{this.state.preparedArticle.title}</NavLink>,&nbsp;
                 <NavLink to="category">{this.state.preparedArticle.category}</NavLink>,&nbsp;
                 <NavLink to="post">{this.state.preparedArticle.published}</NavLink>
               </small>
-              <p class="subtitle">{this.state.preparedArticle.excerpt}</p>
+              <p className="subtitle">{this.state.preparedArticle.excerpt}</p>
               <div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(this.state.preparedArticle.content) }} />
             </div>
           </div>

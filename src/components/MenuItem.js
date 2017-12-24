@@ -11,9 +11,9 @@ class MenuItem extends React.Component
 {
   render() {
     return (
-      <li class="nav-item">
-        <NavLink to={this.props.dataHref} class="nav-link">
-          <i class={`fa ${this.props.dataIcon} fa-fw`} aria-hidden="true"></i>&nbsp; {this.props.dataLabel}
+      <li className="nav-item">
+        <NavLink to={this.props.dataHref} className="nav-link">
+          <i className={`fa ${this.props.dataIcon} fa-fw`} aria-hidden="true"></i>&nbsp; {this.props.dataLabel}
         </NavLink>
       </li>
     );

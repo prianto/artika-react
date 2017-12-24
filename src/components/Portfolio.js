@@ -28,21 +28,21 @@ class Portfolio extends Component
 
   render() {
     return (
-      <div class="col-12 col-sm-6 portfolio-item">
-        <div class="card h-100">
+      <div className="col-12 col-sm-6 portfolio-item">
+        <div className="card h-100">
           <NavLink to="post">
-            <img class="card-img-top lazy" src={dummy_png} data-src={this.props.dataImage} alt="" />
+            <img className="card-img-top lazy" src={dummy_png} data-src={this.props.dataImage} alt="" />
           </NavLink>
-          <div class="card-body">
-            <h4 class="card-title">
+          <div className="card-body">
+            <h4 className="card-title">
               <NavLink to="post">{this.props.dataTitle}</NavLink>
             </h4>
-            <small class="post-meta">
+            <small className="post-meta">
               <NavLink to="post">{this.props.dataAuthor}</NavLink>,&nbsp;
               <NavLink to="category">{this.props.dataCategory}</NavLink>,&nbsp;
               <NavLink to="post">{this.props.dataPublished}</NavLink>
             </small>
-            <p class="card-text">{this.props.dataExcerpt}</p>
+            <p className="card-text">{this.props.dataExcerpt}</p>
           </div>
         </div>
       </div>

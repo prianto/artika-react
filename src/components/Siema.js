@@ -14,9 +14,9 @@ class Slide extends Component
 {
   render() {
     return(
-      <div class="siema-slide">
+      <div className="siema-slide">
         <img src={this.props.dataImage} alt="" />
-        <div class="siema-caption">
+        <div className="siema-caption">
           <h4>
             <NavLink to="post">
               {this.props.dataTitle}
@@ -65,7 +65,7 @@ class Slider extends Component
 
   render() {
     return (
-      <div class="siema-container">
+      <div className="siema-container">
         {this.state.preparedSiema}
       </div>
     );

@@ -32,11 +32,11 @@ class Main extends Component
 
     dataResults.forEach(function(item){
       preparedResults.push(
-        <div class="post-preview">
+        <div className="post-preview">
           <h4>
             <NavLink to="post">{item.title}</NavLink>
           </h4>
-          <small class="post-meta">
+          <small className="post-meta">
             <NavLink to="post">{item.author}</NavLink>,&nbsp;
             <NavLink to="category">{item.category}</NavLink>,&nbsp;
             <NavLink to="post">{item.published}</NavLink>
@@ -56,16 +56,16 @@ class Main extends Component
 
   render() {
     return (
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-8 col-md-10 mx-auto">
-            <h1 class="mb-4">Search</h1>
+      <div className="container">
+        <div className="row mb-5">
+          <div className="col-lg-8 col-md-10 mx-auto">
+            <h1 className="mb-4">Search</h1>
             <form name="sentKeyword">
-              <div class="input-group">
-                <input type="text" class="form-control" placeholder="Please type keywords..." />
-                <span class="input-group-btn">
-                  <button class="btn btn-secondary" type="button">
-                    <i class="fa fa-search" aria-hidden="true"></i>
+              <div className="input-group">
+                <input type="text" className="form-control" placeholder="Please type keywords..." />
+                <span className="input-group-btn">
+                  <button className="btn btn-secondary" type="button">
+                    <i className="fa fa-search" aria-hidden="true"></i>
                   </button>
                 </span>
               </div>

@@ -30,20 +30,20 @@ class Navbar extends Component
 
   render() {
     return (
-      <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-        <div class="container-fluid">
-          <NavLink to="/" class="navbar-brand">
+      <nav className="navbar navbar-expand-lg navbar-light" id="mainNav">
+        <div className="container-fluid">
+          <NavLink to="/" className="navbar-brand">
             <img src={logo_png} alt="" />
           </NavLink>
-          <button class="navbar-toggler navbar-toggler-left toggle-button" type="button" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa fa-bars"></i>
+          <button className="navbar-toggler navbar-toggler-left toggle-button" type="button" aria-expanded="false" aria-label="Toggle navigation">
+            <i className="fa fa-bars"></i>
           </button>
-          <div class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
+          <div className="collapse navbar-collapse">
+            <ul className="navbar-nav ml-auto">
               {this.state.preparedMenu}
-              <li class="nav-item">
-                <a class="nav-link" href="https://github.com/prianto/artika-react" target="_blank" rel="noopener noreferrer">
-                  <i class="fa fa-cloud-download" aria-hidden="true"></i>&nbsp; Download
+              <li className="nav-item">
+                <a className="nav-link" href="https://github.com/prianto/artika-react" target="_blank" rel="noopener noreferrer">
+                  <i className="fa fa-cloud-download" aria-hidden="true"></i>&nbsp; Download
                 </a>
               </li>
             </ul>

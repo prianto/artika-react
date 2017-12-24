@@ -15,44 +15,44 @@ class Main extends Component
 {
   render() {
     return (
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto">
-            <h1 class="mb-1">Contact Us</h1>
-            <p class="mb-1">Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible.</p>
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-8 col-md-10 mx-auto">
+            <h1 className="mb-1">Contact Us</h1>
+            <p className="mb-1">Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible.</p>
             <form name="sentMessage" id="contactForm">
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls">
+              <div className="control-group">
+                <div className="form-group floating-label-form-group controls">
                   <label>Your Name</label>
-                  <input type="text" class="form-control" placeholder="Your Name" id="name" required />
-                  <p class="help-block text-danger"></p>
+                  <input type="text" className="form-control" placeholder="Your Name" id="name" required />
+                  <p className="help-block text-danger"></p>
                 </div>
               </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls">
+              <div className="control-group">
+                <div className="form-group floating-label-form-group controls">
                   <label>Email Address</label>
-                  <input type="email" class="form-control" placeholder="Email Address" id="email" required />
-                  <p class="help-block text-danger"></p>
+                  <input type="email" className="form-control" placeholder="Email Address" id="email" required />
+                  <p className="help-block text-danger"></p>
                 </div>
               </div>
-              <div class="control-group">
-                <div class="form-group col-xs-12 floating-label-form-group controls">
+              <div className="control-group">
+                <div className="form-group col-xs-12 floating-label-form-group controls">
                   <label>Phone Number</label>
-                  <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required />
-                  <p class="help-block text-danger"></p>
+                  <input type="tel" className="form-control" placeholder="Phone Number" id="phone" required />
+                  <p className="help-block text-danger"></p>
                 </div>
               </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls">
+              <div className="control-group">
+                <div className="form-group floating-label-form-group controls">
                   <label>Message</label>
-                  <textarea rows="5" class="form-control" placeholder="Message" id="message" required></textarea>
-                  <p class="help-block text-danger"></p>
+                  <textarea rows="5" className="form-control" placeholder="Message" id="message" required></textarea>
+                  <p className="help-block text-danger"></p>
                 </div>
               </div>
               <br />
               <div id="success"></div>
-              <div class="form-group">
-                <button type="submit" class="btn btn-secondary" id="sendMessageButton">Send</button>
+              <div className="form-group">
+                <button type="submit" className="btn btn-secondary" id="sendMessageButton">Send</button>
               </div>
             </form>
           </div>

@@ -29,9 +29,9 @@ class Main extends Component
 
   render() {
     return (
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-8 col-md-10 mx-auto">
             <h1>{this.state.preparedAbout.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(this.state.preparedAbout.content) }} />
           </div>

@@ -11,26 +11,26 @@ class Pagination extends Component
 {
   render() {
     return(
-      <ul class="pagination justify-content-center">
-        <li class="page-item">
-          <NavLink to={this.props.dataHref} class="page-link">
+      <ul className="pagination justify-content-center">
+        <li className="page-item">
+          <NavLink to={this.props.dataHref} className="page-link">
             <span aria-hidden="true">&laquo;</span>
-            <span class="sr-only">Prev</span>
+            <span className="sr-only">Prev</span>
           </NavLink>
         </li>
-        <li class="page-item">
-          <NavLink to={this.props.dataHref} class="page-link">1</NavLink>
+        <li className="page-item">
+          <NavLink to={this.props.dataHref} className="page-link">1</NavLink>
         </li>
-        <li class="page-item active">
-          <NavLink to={this.props.dataHref} class="page-link">2</NavLink>
+        <li className="page-item active">
+          <NavLink to={this.props.dataHref} className="page-link">2</NavLink>
         </li>
-        <li class="page-item">
-          <NavLink to={this.props.dataHref} class="page-link">3</NavLink>
+        <li className="page-item">
+          <NavLink to={this.props.dataHref} className="page-link">3</NavLink>
         </li>
-        <li class="page-item">
-          <NavLink to={this.props.dataHref} class="page-link">
+        <li className="page-item">
+          <NavLink to={this.props.dataHref} className="page-link">
             <span aria-hidden="true">&raquo;</span>
-            <span class="sr-only">Next</span>
+            <span className="sr-only">Next</span>
           </NavLink>
         </li>
       </ul>
