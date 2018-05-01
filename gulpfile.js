@@ -6,7 +6,6 @@ gulp.task('sass', function() {
     .pipe(sass())
     .pipe(gulp.dest(function(file) {
       var base = file.base;
-      console.log(base);
       return base.replace('scss', 'src');
     }));
 });
