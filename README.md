@@ -8,7 +8,7 @@ This template features home page, category page, about page, contact page, searc
 
 ![Artika React Preview](src/assets/img/preview.jpg?raw=true "Artika React")
 
-**[View live preview on Herokuapp &rarr;](https://artika-react.herokuapp.com/)**
+**[View live preview on Netlify &rarr;](https://artika-react.netlify.com/)**
 
 ## Download and Installation
 
